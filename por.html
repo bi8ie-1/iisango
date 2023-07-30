@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- fonts -->
+    <link href="https://fonts.cdnfonts.com/css/remine-fares" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles-1.css">
+
+    <title>iisango/portrait</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav">
+            <a href="index.html" class="nav__logo">
+                <img src="assets/img/logo.png" class="nav__logo-icon" alt="">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">about</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="project.html" class="nav__link">work</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+               <i class='bx bx-list-ul'></i>
+           </div>
+            </div>
+        </nav>
+    </header>
+
+   
+    <!-- ===============================home========================= -->
+    <div class="sub">portrait</div>
+<section class="sec-work">
+    <div class="carousel carousel-nav"
+    data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false }'>
+    <div class="carousel-cell"><img src="assets/img/pexels-cihan-oğuzmetin-4505269.jpg" alt=""></div>
+    <div class="carousel-cell"><img src="assets/img/ee.jpg" alt=""></div>
+    <div class="carousel-cell"><img src="assets/img/eee2.jpg" alt=""></div>
+    <div class="carousel-cell"><img src="assets/img/ee3.jpg" alt=""></div>
+    <div class="carousel-cell"><img src="assets/img/ee4.jpg" alt=""></div>
+    <div class="carousel-cell"><img src="assets/img/ee5.jpg" alt=""></div>
+    <div class="carousel-cell"><img src="assets/img/ee6.jpg" alt=""></div>
+    <div class="carousel-cell"><img src="assets/img/ee7.jpg" alt=""></div>
+    <div class="carousel-cell"><img src="assets/img/ee8.jpg" alt=""></div>
+    <div class="carousel-cell"><img src="assets/img/ee9.jpg" alt=""></div>
+  </div>
+
+
+    <div class="carousel carousel-main" data-flickity>
+        <div class="carousel-cell"><img src="assets/img/pexels-cihan-oğuzmetin-4505269.jpg" alt=""></div>
+        <div class="carousel-cell"><img src="assets/img/ee.jpg" alt=""></div>
+        <div class="carousel-cell"><img src="assets/img/eee2.jpg" alt=""></div>
+        <div class="carousel-cell"><img src="assets/img/ee3.jpg" alt=""></div>
+        <div class="carousel-cell"><img src="assets/img/ee4.jpg" alt=""></div>
+        <div class="carousel-cell"><img src="assets/img/ee5.jpg" alt=""></div>
+        <div class="carousel-cell"><img src="assets/img/ee6.jpg" alt=""></div>
+        <div class="carousel-cell"><img src="assets/img/ee7.jpg" alt=""></div>
+        <div class="carousel-cell"><img src="assets/img/ee8.jpg" alt=""></div>
+        <div class="carousel-cell"><img src="assets/img/ee9.jpg" alt=""></div>
+      </div>
+      
+     </section>
+
+
+     <div class="row">
+        <div class="column">
+          <img src="assets/img/pexels-cihan-oğuzmetin-4505269.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="assets/img/eee2.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="assets/img/ee.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="assets/img/ee3.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="assets/img/ee6.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="assets/img/ee7.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="assets/img/ee8.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="assets/img/ee9.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+          </div>
+
+      </div>
+      
+      <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:100%">
+        <div id="imgtext"></div>
+      </div>
+    <!-- ==================================footer=========================== -->
+
+
+    <footer>
+       <div class="footer">
+           <div class="foot-box">
+               <h2>suadi arebia</h2>
+               <h2>copyright 2022 bi8ie</h2>
+               <h2>iisango@hotmail.com</h2>
+           </div>
+       </div>
+    </footer>
+
+
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+        <script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+</body>
+
+</html>
